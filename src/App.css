@@ -4,15 +4,21 @@
 
 .video-responsive {
   overflow: hidden;
-  padding-bottom: 260px;
   position: relative;
-  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 250px;
-  width: 500px;
-  position: center;
+  height: 100%;
+  width: 100%;
+  max-width: 350px;
+  max-height: 250px;
+  position: relative;
 }
+
+
+
+
+

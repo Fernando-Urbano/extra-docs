@@ -12,7 +12,7 @@ function Introduction () {
                 <li className="col-12 lead">UChicago e-mail: fernandourbano@uchicago.edu</li>
                 <li className="col-12 lead">Personal e-mail: fernando.rocha.urbano@gmail.com</li>
                 <div className="d-flex justify-content-center col-12">
-                    <img src={profilePic} alt="Profile" className="img-fluid" style={{ maxWidth: '325px', margin: 'auto' }} />
+                    <img src={profilePic} alt="Profile" className="img-fluid" style={{ maxWidth: '270px', margin: 'auto' }} />
                 </div>
                 <div className='d-flex justify-content-center col-12'>
                     <div class="alert alert-success m-2" role="alert">

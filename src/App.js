@@ -21,6 +21,47 @@ function App() {
             },
             video: 'r1-xU-xvvKA'
         },
+        'Trading Strategy Development and Deployment' : {
+            title: 'Trading Strategy Development and Deployment with Python',
+            date: 'Nov 2023 - Dec 2023',
+            text: `
+                This project aims to create a trading strategy and trade paper money with it using the Alpaca API. If wanted, the strategy can also be used to trade dollars.
+
+                The trading strategy market chosen was the crypto market and the benchmark of the strategy is the Bitcoin. It's goal is to overperform Bitcoin.
+
+                
+                The strategy uses three crypto currencies:
+
+                - Ethereum (ETH/USD)
+
+                - Uniswap (UNI/USD)
+
+                - Bitcoin (BTC/USD)
+
+                
+                The strategy aims to trade every hour and uses hourly data from the three crypto currencies to generate predictions about the returns of the three crypto assets.
+
+                
+                The model chosen to generate predictions about the three crypto assets is the VAR (Vector Autoregressive) model. In the model, we predict:
+
+                
+                - returns of the three crypto currencies
+
+                - average price for a given amount of hours divided by the rolling average price for another given amount of hours
+
+                
+                The VAR model predicts values for all those, using all the variables to predict each one. Afterwards, only the prediction of the hourly returns (not the average) are used.
+                
+
+                The expected return according to the model for BTC, ETH and UNI are than used with the covariance matrix of returns to the "portfolio management" part of the strategy, which defines optimal weights for each of the assets for the next hour. The weights of each asset are defined using mean-variance (Efficient Frontier) optimization with RIDGE. RIDGE makes the weights less disperse. If any weight is negative, it becomes zero. Afterwards, the weights are scaled to add up to 100% of the total equity available.
+                
+
+                Finally, the "portfolio managament" send the target weights to the "operation" side of the strategy with calculates how much of each of the three assets should be sold/bought.
+            `,
+            links: {
+                'Code in Python': 'https://github.com/Fernando-Urbano/alpaca-trading-strategy-p3'
+            }
+        },
         'Social Network Project': {
             title: 'Social Network Project with Django and JS',
             date: 'May 2023 - Jun 2023',
@@ -361,6 +402,8 @@ function App() {
             text: `
                 This course dives deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like
                 Django, React, and Bootstrap. 
+
+                I completed every assignment and the final project, but unfortunately could not pay for the certificate.
             `,
             links: {'Studies': 'https://github.com/Fernando-Urbano/cs50w'}
         },
@@ -392,8 +435,8 @@ function App() {
     return (
         <div className="App">
             <Introduction />
-            <ProjectsGroup name='Data Science and Finance Projects' projects={dataScienceProjects}/>
             <ProjectsGroup name='Software Engineering Projects' projects={softwareEngineeringProjects}/>
+            <ProjectsGroup name='Data Science and Finance Projects' projects={dataScienceProjects}/>
             <ProjectsGroup name='Awards, Courses and Volunteering' projects={awardsAndCourses}/>
         </div>
     );

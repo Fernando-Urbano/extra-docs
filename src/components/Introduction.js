@@ -5,10 +5,11 @@ function Introduction () {
     return (
         <nav className="navbar column-flex align-text-left">
             <ul className="nav">
-                <li className="col-12 display-4">Extra Documents</li>
+                <li className="col-12 display-4">Personal and Professional Projects</li>
                 <li className="col-12 display-6">Fernando Rocha Corrêa Urbano</li>
                 <li className="col-12 lead">MS in Financial Mathematics Student at The University of Chicago</li>
-                <li className="col-12 lead">Seeking 2024 summer job as quant data scientist or developer</li>
+                <li className="col-12 lead">UChicago e-mail: fernandourbano@uchicago.edu</li>
+                <li className="col-12 lead">Personal e-mail: fernando.rocha.urbano@gmail.com</li>
                 <div className='d-flex justify-content-center col-12'>
                     <div class="alert alert-success m-2" role="alert">
                         This App was built by <strong>me</strong> using <strong>Node + React</strong>
@@ -28,7 +29,6 @@ function Introduction () {
                         GitHub
                     </button>
                 </div>
-                <li className="col-12 lead">E-mail: fernandourbano@uchicago.edu</li>
             </ul>
         </nav>
     )

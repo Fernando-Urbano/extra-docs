@@ -351,12 +351,38 @@ function App() {
                 'Badge': 'https://basno.com/8fnzf8hd'
             }
         },
+        'CISV': {
+            title: 'Volunteer Work: CISV',
+            date: 'Jan 2011 - Dec 2017',
+            text: `
+                CISV was founded in the belief that peace is possible through building friendship and mutual understanding, starting
+                with children.\n
+
+                During my time in the organization, I participated and traveled once per semester to camps in order to discuss and implement
+                global citizenship with young people from around the world. In 2016, I organized and developed activities for children and young
+                teenagers. Between january and december of 2017, I led the local chapter of juniors in the organization.\n
+
+                The video shows one of the camps in which I participated as a child in Finland, 2015.
+            `,
+            links: {
+                'Transcript of Participation': 'https://drive.google.com/file/d/16xHHKKPanfG1P9sBMc_GEEuQ2LVruWSW/view?usp=sharing',
+            },
+            video: 'tKEHhFPpkFg'
+        },
+        'FinMath Scholarship': {
+            title: 'Alpha Scholarship in MS in Financial Mathematics at The University of Chicago',
+            date: 'Mar 2023',
+            text: `
+                Highest financial award given to student in the MS in Financial Mathematics program at The University of Chicago.
+            `,
+        },
         'Ibmec': {
-            title: 'Summa cum Laude',
+            title: 'Summa cum Laude and IBMEC Stars Scholarship',
             date: 'Jul 2021',
             text: `
-                Graduated Summa cum Laude: price given to the best student in the Economics cohort of Ibmec. Furthermore, I also received
-                awards as the best student of the cohort in university period in every occasion the award was given.
+                Graduated Summa cum Laude: price given to the best student in the Economics cohort of Ibmec.\n
+                
+                IBMEC Stars: Scholarship with a financial prize to the best Economics student each academic semester. The scholarship has been awarded to me seven times.
             `,
             links: {
                 'Awards': 'https://drive.google.com/file/d/1nes8jk_1tfv412eTlMrOcCXz-GCgxaBK/view',
@@ -377,24 +403,6 @@ function App() {
                 'Award': 'https://drive.google.com/file/d/1JrV6Gdq5gtwUQXhb4mpYwmjjxU22ui8b/view?usp=sharing',
             },
             video: 'M80El-vT2s4'
-        },
-        'CISV': {
-            title: 'Volunteer Work: CISV',
-            date: 'Jan 2011 - Dec 2017',
-            text: `
-                CISV was founded in the belief that peace is possible through building friendship and mutual understanding, starting
-                with children.\n
-
-                During my time in the organization, I participated and traveled once per semester to camps in order to discuss and implement
-                global citizenship with young people from around the world. In 2016, I organized and developed activities for children and young
-                teenagers. Between january and december of 2017, I led the local chapter of juniors in the organization.\n
-
-                The video shows one of the camps in which I participated as a child in Finland, 2015.
-            `,
-            links: {
-                'Transcript of Participation': 'https://drive.google.com/file/d/16xHHKKPanfG1P9sBMc_GEEuQ2LVruWSW/view?usp=sharing',
-            },
-            video: 'tKEHhFPpkFg'
         },
         'CS50W': {
             title: 'Harvard CS50’s Web Programming with Python and JavaScript',

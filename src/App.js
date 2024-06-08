@@ -6,6 +6,18 @@ import ProjectsGroup from './components/ProjectsGroup';
 function App() {
 
     const softwareEngineeringProjects = {
+        'Event Market Software': {
+            title: 'Event Market Software - Leveraging ActiveMQ, Maven, Camel & PostgreSQL',
+            date: 'Mar 2024 - May 2024',
+            text: `
+                This project presents multiple application for the backend of a event market place, where Users can purchase tickets
+                and Event Creators can create new events. The applications communicate via Message Queue system, using ActiveMQ and Camel. All the applications are built using Maven and data is stored in PostgreSQL databases.
+            `,
+            links: {
+                'Code': 'https://github.com/Fernando-Urbano/event-market-activemq-camel'
+            },
+            video: '38eP5bMDDyA',
+        },
         'Investment Intel': {
             title: 'Investment Intel - Website and Software for Investment Information with Django and React',
             date: 'Jun 2023 - Aug 2023',

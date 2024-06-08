@@ -24,7 +24,13 @@ jobs:
       - name: Build the project
         run: npm run build
 
+      - name: Debug Info
+        run: |
+          git config --list
+          git remote -v
+
       - name: Deploy to GitHub Pages
-        run: npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build

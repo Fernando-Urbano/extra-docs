@@ -210,6 +210,16 @@ function App() {
                 'Complete Explanation': 'https://github.com/Fernando-Urbano/wikipedia-software/blob/main/README.md'
             },
             video: 'wkML34wZBQU'
+        },
+        'Design and Enterprise Patterns Activies': {
+            title: 'Design and Enterprise Patterns Activies',
+            date: 'Mar 2023 - May 2023',
+            text: `
+                The repository is a collection of simple projects about design and enterprise patterns using Java and Maven.
+            `,
+            links: {
+                'Code in Java': 'https://github.com/Fernando-Urbano/design-and-enterprise-patterns-java-and-camel'
+            }
         }
     }
     
@@ -237,6 +247,23 @@ function App() {
               'Code in Python': 'https://github.com/Fernando-Urbano/forest-through-the-trees',
               'Complete Explanation': 'https://github.com/Fernando-Urbano/forest-through-the-trees/blob/main/README.md'
           }
+      },
+      'Exploring Hyperparameter Spaces in Efficient Frontier Regularization': {
+        title: 'Hyperparameter Tuning in Efficient Frontier Regularization',
+        date: 'Mar 2024 - May 2024',
+        text: `
+            The goal of our paper is to dive deeper into the tuning of hyperparameters for Ridge regularization,
+            tirelessly testing possible combinations of different parameters to arrive at general guidelines on how
+            to approach the problem and which sets generate more favorable results. We aim to provide a comprehensive study of the hyperparameter space of the RMVP, exploring the impact of the number of assets,
+            training size, days until rebalancing (viewed as testing size), number of time-series cross-validation,
+            and cross-validation size.\n
+
+            Among the factors that can be optimized by practitioners, Training Window and Number of TimeSeries Cross-Validation are the ones which represent the most significant impact on the out-of-sample Sharpe Ratio.
+        `,
+        links: {
+            'Code in Python': 'https://github.com/Fernando-Urbano/efficient-frontier-regularization',
+            'Article Report': 'https://github.com/Fernando-Urbano/efficient-frontier-regularization/blob/main/reports/report.pdf'
+        },
       },
       'Inter': {
           title: 'Macroeconomics and Strategic Research Reports',

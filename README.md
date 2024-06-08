@@ -1,5 +1,23 @@
 # Extra Docs - Personal and Professional Projects
 
+## Deploy Updates
+1. Push content to github
+
+2. Compile and Run Project:
+```
+npm run build
+```
+
+3. If you haven't already installed, install github page package:
+```
+npm install gh-pages --save-dev
+```
+
+4. Deploy:
+```
+npx gh-pages -d build
+```
+
 ## Overview
 This project is a React-based web application. It contains access to my personal and professional projects.
 
